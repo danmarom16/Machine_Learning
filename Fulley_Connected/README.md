@@ -29,8 +29,10 @@ To run the machine learning code in this project, follow these set-up instructio
 7. **Run the code**: Open a Python IDE or a Jupyter Notebook and execute the code to run the machine learning project.
 
 ## Loading the Trained Model
+If you want to use the existing code in the NN_final.ipynb to run the trained model, just run the last cell in the .ipynb file:<br><br>
+![image](https://github.com/danmarom16/Machine_Learning/assets/92876036/a6ba1ba3-20be-4606-b941-9180afff331b)
 
-To load the trained model and make predictions, make sure you implement those essentials lines of code:
+<br>Else, if you want to load the trained model and make predictions with your costum test file, make sure you implement those essentials lines of code:
 
 1. In your Python environment, create a new python script and include  import the necessary libraries:
 ```python
@@ -55,6 +57,7 @@ test_samples = test_data.iloc[:, 1:].values.T
 ```python
 test_predictions = nn.test(test_samples)
 ```
+Important Note: Make sure your costum test file applies to the CSV file format described below.<br>
 
 ## Architecture And Formats
 ### Neural Network Architecture
