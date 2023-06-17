@@ -29,10 +29,13 @@ To run the machine learning code in this project, follow these set-up instructio
 7. **Run the code**: Open a Python IDE or a Jupyter Notebook and execute the code to run the machine learning project.
 
 ## Loading the Trained Model
-If you want to use the existing code in the NN_final.ipynb to run the trained model, just run the last cell in the .ipynb file:<br><br>
-![image](https://github.com/danmarom16/Machine_Learning/assets/92876036/a6ba1ba3-20be-4606-b941-9180afff331b)
-
-<br>Else, if you want to load the trained model and make predictions with your costum test file, make sure you implement those essentials lines of code:
+**If you want to use the existing code** in the NN_final.ipynb to run the trained model and output.txt file, just run the last cell in the .ipynb file:<br><br>
+![image](https://github.com/danmarom16/Machine_Learning/assets/92876036/ab11881c-786d-4b3d-8fb3-8d21cf3a0611)
+<br>
+Note: output.txt format  - A text file named output.txt, containing exactly 1000 rows, and in each row only a number 
+between 1 to 10, denoting the prediction for the corresponding row in the test file.
+<br>
+<br>Else, if you want to load the trained model and make predictions with your **custom test** file, make sure you implement those essentials lines of code:
 
 1. In your Python environment, create a new python script and include  import the necessary libraries:
 ```python
